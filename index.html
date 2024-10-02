@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Queimadas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s ease;
+        }
+
+        #banner {
+            width: 100%;
+            aspect-ratio: 21 / 9;
+            background: url('https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2024/09/whatsapp-image-2024-09-30-at-082146-1.jpeg') no-repeat center center;
+            background-size: cover;
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+            margin-bottom: 20px;
+            transition: filter 0.5s ease, box-shadow 0.5s ease;
+        }
+
+        #banner:hover {
+            filter: brightness(1.3);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+        }
+
+        #banner:hover ~ .darken {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .darken {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+            transition: background-color 0.5s ease;
+            z-index: -1;
+        }
+
+        .title {
+            font-size: 24px;
+            margin: 0 20px 10px;
+        }
+
+        .text-box {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 0 20px 20px;
+            padding: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .text-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div id="banner"></div>
+    <div class="darken"></div>
+
+    <h1 class="title">Registro de queimadas em setembro no Brasil é 30% maior que a média do mês</h1>
+    <div class="text-box">
+        Este ano, os registros de queimadas no Brasil apresentaram um aumento significativo em relação ao mesmo período do ano passado. A situação preocupa especialistas e ambientalistas.
+    </div>
+
+    <h2 class="title">Impacto ambiental e medidas de combate</h2>
+    <div class="text-box">
+        O aumento das queimadas afeta não só a biodiversidade, mas também a saúde da população local. Medidas urgentes são necessárias para combater essa situação e proteger o meio ambiente.
+    </div>
+
+    <h3 class="title">São Paulo e Mato Grosso lideram prejuízos no agronegócio por queimadas</h2>
+    <div class="text-box">
+        Em todo o Brasil, o prejuízo estimado é de R$ 14,7 bilhões, nesta projeção. Também aparecem entre os mais afetados Pará e Mato Grosso do Sul, com R$ 2 bilhões e R$ 1,4 bilhões em perdas, respectivamente.
+
+        A projeção da CNA considera danos à pecuária e pastagem (R$ 8,1 bilhões), à produção de cana-de-açúcar (R$ 2,7 bilhões), além de outras culturas temporárias e permanentes (R$ 1 bilhão) e cercas das pastagens (2,8 bilhões). Foram incendiados 2,8 milhões de hectares de propriedades rurais, estima-se.
+        
+        Para precificar essas perdas foram calculados o custo de reposição da matéria orgânica, prejuízo com cana-de-açúcar que ainda não tinha sido colhida, perdas de produtividade do rebanho por limitação de pasto, de cercas em áreas de pastagem e de fósforo e potássio nas camadas superficiais dos solos.
+    </div>
+</body>
+</html>
